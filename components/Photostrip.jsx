@@ -3,7 +3,7 @@ import Image from "next/image";
 /**
  * Denne komponenten rendrer en liste med bilder som er skrollabre horisontalt.
  */
-export function Photostrip({ images }) {
+export function Photostrip({ images, width = "405", height = "208" }) {
   return (
     <div className="flex snap-x snap-mandatory justify-start gap-8 overflow-x-auto">
       {images.map((image, index) => {
@@ -14,8 +14,8 @@ export function Photostrip({ images }) {
             alt="Bilde av meg"
             key={index}
             src={image}
-            width={405}
-            height={208}
+            width={width}
+            height={height}
             className="snap-center"
           />
         );

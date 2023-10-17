@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         "neutral-black": "#2B2B2B",
         "secondary-700": "#1F6028",
+        "co-working": "#AD9573",
       },
     },
   },

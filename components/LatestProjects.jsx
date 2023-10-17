@@ -33,7 +33,7 @@ export function LatestProjects() {
       </div>
 
       <Link
-        className="text-secondary-700 font-bold hover:underline"
+        className="text-secondary-700 font-bold hover:underline text-violet-900"
         href="/prosjekter"
       >
         Se alle mine prosjekter

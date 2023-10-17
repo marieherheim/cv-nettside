@@ -8,9 +8,9 @@ import Link from "next/link";
 export function Header() {
   return (
     <header className="bg-white/50 flex justify-between px-8 sm:px-16 py-5 flex-row gap-5">
-      <HeaderLink href="/">karinordmann.no</HeaderLink>
+      <HeaderLink href="/">Hjem</HeaderLink>
       <div className="flex gap-5">
-        <HeaderLink href="/cv">CV</HeaderLink>
+        <HeaderLink href="/cv">Se min CV</HeaderLink>
       </div>
     </header>
   );
@@ -19,7 +19,7 @@ export function Header() {
 function HeaderLink({ href, children }) {
   return (
     <Link
-      className="font-bold hover:underline underline-offset-2 outline-offset-4 text-neutral-black"
+      className="font-bold hover:underline underline-offset-2 outline-offset-4 text-violet-800"
       href={href}
     >
       {children}

@@ -21,7 +21,7 @@ const images = [
 
 export default async function Project() {
   return (
-    <div className="ml-8 sm:ml-10 flex flex-col gap-16 mb-32">
+    <div className="ml-8 sm:ml-10 flex flex-col gap-16 mb-40">
       <ProjectHero
         title="Tittel"
         description="Ingress med en forklaring om hva prosjektet handlet om, hvem det var med etc."
